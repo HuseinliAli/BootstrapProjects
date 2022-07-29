@@ -1,2 +1,2 @@
 # BootstrapProjects
-<project class"build-blog-project"=></project>
+<project class="build-blog-project"></project>
