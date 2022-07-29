@@ -1,0 +1,32 @@
+*{
+  text-decoration: none !important;  
+}
+.modal-content{
+    background: black !important;
+    font-size: 60px !important;
+}
+.modal-content a:hover{
+    transition: 0.2s;
+    color:#FFFFFF !important;
+}
+.photo-profile{
+    text-align: center;
+    width: 200px;
+}
+.gradient-next-to-profile-photo{
+    background-image: linear-gradient(to right, rgb(209,91,199) , rgb(41,207,148));
+    width: 90px !important;
+    height: 5px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin: auto;
+}
+.fa-arrow-right-long{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(231, 59, 216)), to(rgb(11, 167, 112)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.writing-center-next-to-profile-photo{
+    height: 200px;
+
+}
