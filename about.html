@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Axole</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light mb-5">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" >Brand</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#navbarModal">
+                        <i class="fa-solid fa-2x fa-bars"></i>
+                    </button>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="modal fade" id="navbarModal" tabindex="-1" aria-labelledby="navbarModal" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered text-center">
+            <div class="modal-content">
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark text-light"></i></button>
+                <ul class="list-unstyled fw-bolder" id="navbar-elements-modal">
+                    <li><a href="index.html" class="link-secondary">Home</a></li>
+                    <li><a href="" class="link-secondary">Projects</a></li>
+                    <li><a href="" class="link-secondary">About</a></li>
+                    <li><a href="" class="link-secondary">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="margin-spacing"></div>
+    
+    
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="About.jpg" alt="about-photo" class="img-fluid shadow-lg">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6 h1 fw-bolder mb-3 mt-3 text-md-start text-center">Hellow</div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="margin-spacing"></div>
+
+        <div class="row" id="get=in-touch">
+            <div class="col-md-6">
+                <div class="row mt-5 mb-3">
+                    <div class="col-md-5 fw-bolder h1 text-center">Get in Touch</div>
+                    <div class="col-md-4 gradient-next-to-profile-photo"></div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md text-md-start text-center">
+                        <p>
+                            I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md h2 fw-bolder mt-2 text-md-start text-center">
+                        <p>mail@website.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="row">
+                        <div class="col-mb-12">
+                          <input type="text" class="form-control border-0 border-bottom" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-mb-12">
+                          <input type="text" class="form-control border-0 border-bottom" placeholder="Last name" aria-label="Last name">
+                        </div>
+                        <div class="col-mb-12">
+                            <input type="text" class="form-control border-0 border-bottom" placeholder="Subject" aria-label="Last name">
+                          </div>
+                        <div class="col-mb-12">
+                            <input type="text" class="form-control border-0 border-bottom" placeholder="Message" aria-label="Last name">
+                        </div>
+                        <div class="col-mb-12 text-end">
+                            <input type="button" class="btn" placeholder="Message" aria-label="Last name" value="Submit">
+                        </div>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="margin-spacing"></div>
+    <footer class="py-5">
+        <div class="container text-center">
+            <p class="fw-bolder h5">FOLLOW ME</p>
+            <ul class="list-inline">
+                <li class="list-inline-item social-media-icons">
+                    <a href="">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item social-media-icons">
+                    <a href="">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item social-media-icons">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>© 2022 Phlox Resume. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+</html>

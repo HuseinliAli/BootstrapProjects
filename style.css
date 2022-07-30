@@ -10,8 +10,9 @@
     color:#FFFFFF !important;
 }
 .photo-profile{
-    text-align: center;
-    width: 200px;
+    width: 215px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .gradient-next-to-profile-photo{
     background-image: linear-gradient(to right, rgb(209,91,199) , rgb(41,207,148));
@@ -21,12 +22,54 @@
     margin-bottom: auto !important;
     margin: auto;
 }
-.fa-arrow-right-long{
+.fa-arrow-right{
 	background: -webkit-gradient(linear, left top, left bottom, from(rgb(231, 59, 216)), to(rgb(11, 167, 112)));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .writing-center-next-to-profile-photo{
     height: 200px;
-
+}
+.get-it-touch-link a{
+    transition: 0.2s;
+    color: black;
+}
+.get-it-touch-link a:hover{
+    color:#1c1c1c;
+}
+.post-writings-head{
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.post-writings-description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #929292;
+}
+.post-writings-link a{
+    transition: 0.2s;
+    font-weight: 700;
+    color: #000;
+}
+.post-writings-link a:hover{
+    color: #1c1c1c;
+}
+.design-dev-year{
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px !important;
+    transform: rotate(90deg);
+    line-height: 25px;
+}
+.margin-spacing{
+    height: 8vh;
+}
+.social-media-icons a{
+    color: #000 !important;
+    font-size: 20px;
+    line-height: 55px;
+}
+.form-control
+{
+    height: 10vh;
 }
