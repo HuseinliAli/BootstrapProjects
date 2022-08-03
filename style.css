@@ -68,8 +68,37 @@
     color: #000 !important;
     font-size: 20px;
     line-height: 55px;
+    transition: 0.3s;
+}
+.social-media-icons a:hover{
+    color: rgb(97, 97, 97) !important;
 }
 .form-control
 {
     height: 10vh;
+}
+.bold-projects{
+    font-size: 56px;
+    letter-spacing: 1px;
+}
+.products-font-size{
+    font-size: 32px;
+}
+.image-height-projects{
+    height: 600px;
+}
+.btn-filter-projects:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+.btn-filter-projects{
+    background-color: #FFFFFF !important;
+    color: rgb(125, 122, 122) !important;
+    border: none!important;
+    font-weight: 500 !important;
+    font-size: 18px!important;
+    transition: 0.3!important;
+}
+.btn-filter-projects:hover{
+    color: #1c1c1c !important;
 }
